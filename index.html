@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quête Javascripting</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var question = prompt ("Hey mon ami ! Tu aimes ça les patates ?");
+		var patates = '';
+			if (question == 'oui'){
+  					for (var i = 0; i < 7; i++){
+    					patates = patates + "#";
+    					console.log(patates);
+  					}
+			}
+			else if (question=="non"){
+  			alert ('Ohhh quelle déception !');
+			}
+			else {
+  			alert ('Je vous sens comme tiraillé');
+			}
+	</script>
+</body>
+</html>
